@@ -7,6 +7,7 @@ For token representations in each LLM layer and after each transformation (atten
 - singular anisotropy,
 - effective dimensions,
 - intrinsic dimensions.
+- 
 Also, code allows to monitor these characteristics over finetuning and modified architectures.
 
 We found a consistent periodic pattern across three model families (Pythia, Qwen, GPT2), two datasets (Wikipedia, Realnewslike), and all of the above characteristics. Namely, the values spike after residual connections but drop after attention and MLP blocks.
